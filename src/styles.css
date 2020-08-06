@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+}
+.resizable {
+  background: lime;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  max-width: 250px;
+  min-width: 100px;
+}
+
+.resizer {
+  width: 10px;
+  height: 10px;
+  background: blue;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
